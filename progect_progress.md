@@ -11,6 +11,7 @@
 #### User must be able to view any spell
 #### User must be able to store spells
 #### Program must be able to display error messages
+#### User inputs through text
 
 ### Non-functional requirements
 
