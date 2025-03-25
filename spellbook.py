@@ -36,3 +36,8 @@ def view_spellbook():
     else:
         for spell in spellbook.values():
             print(f"{spell['name']} (Level {spell['level']}): {spell['description']}")
+
+def use_search():
+    user_spell = input('Enter Spell Name: ')
+    spell_found = search_spell(user_spell)
+    print(spell_found)
