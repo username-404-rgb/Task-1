@@ -31,14 +31,26 @@ def add_spell_to_spellbook(spell_name):
 
 def view_spellbook():
     """Display all stored spells."""
-    if not spellbook:
+    if not spellbook:                           #If spellbook empty, print 'your spellbook is empty'
         print("Your spellbook is empty.")
     else:
         for spell in spellbook.values():
-            print(f"{spell['name']} (Level {spell['level']}): {spell['description']}")
+            print(f"{spell['name']} (Level {spell['level']}): {spell['description']}")     #Displays the spell name, level, and description
 
 def use_search():
     user_spell = input('Enter Spell Name: ')
     spell_found = search_spell(user_spell)
     print(spell_found)
 
+def remove_spell():
+    """Remove a spell from the spellbook"""
+    if not spellbook:                           #If the spell searched for isn't in book, just prints spellbook, otherwise removes it then prints
+        print("Your spellbook is empty.")
+    else: 
+        remove = input("Remove which spell? ")
+        if remove in spellbook:
+            spellbook.pop(remove)
+            view_spellbook()
+        else:
+            print('Spell not in spellbook')
+            view_spellbook()
