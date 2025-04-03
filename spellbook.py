@@ -23,7 +23,7 @@ def search_spell(spell_name):
         return None
 
 def add_spell_to_spellbook(spell_name):
-    """Add a spell to the spellbook if found."""
+    """Add a spell to the spellbook if found.""" 
     spell = search_spell(spell_name)
     if spell:
         spellbook[spell_name] = spell
@@ -41,3 +41,4 @@ def use_search():
     user_spell = input('Enter Spell Name: ')
     spell_found = search_spell(user_spell)
     print(spell_found)
+
