@@ -1,1 +1,2 @@
-requests
+Internet Connection
+Nothing else, just run main.py

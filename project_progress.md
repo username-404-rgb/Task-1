@@ -28,7 +28,7 @@
 ### Functional Specifications
 
 * **User Requirements:**
-    * User should be able to seach for spells, save spells and cast spells
+    * User should be able to search for spells, save spells and cast spells
 
 * **Inputs & Outputs:** 
     * Input: Program should read shorthand commands from user [1, 2, 3], allocated to showing spell list, searching for spells and saving spell to spellbook
@@ -56,7 +56,7 @@
 ## Use Case
 * **Actor -** User
 
-* **Preconditions -** Internet connection; API for DnD 5e avaliable
+* **Preconditions -** Internet connection; API for DnD 5e available
 
 * **Main Flow -**
     * ***Search for spell***: User enters a spell name and system retrieves and displays details for spell
