@@ -53,7 +53,9 @@
 
 * **Reliability**:
     * Potential errors include duplicate data, inaccurate data, data retrieval crashes, and can be fixed through repeated testing
+
 ## Use Case
+
 * **Actor -** User
 
 * **Preconditions -** Internet connection; API for DnD 5e available
@@ -66,3 +68,17 @@
     * ***Exit***: Program is closed
 
 * **Postconditions -** Spell is displayed, stored, viewed, removed or program close
+
+## Design
+
+![Structure Chart](/images/structue_chart.png "Structure Chart")
+![Algorithm 1](/images/algorithm_1.png "Algorithm 1")
+![Algorithm 2](/images/algorithm_2.png "Algorithm 2")
+![Data Dictionary](/images/data_dictionary.png "Data Dictionary")
+
+## Maintenance
+
+* Limited need for maintenance
+
+
+
