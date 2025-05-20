@@ -78,7 +78,7 @@
 
 ## Maintenance
 
-* Limited need for maintenance
+* Limited need for maintenance, potential for errors with updates to the DnD API
 
 
 
